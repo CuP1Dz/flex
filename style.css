@@ -1,0 +1,106 @@
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    background-color: lightblue;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+aside{
+    width: 200px;
+    background-color: lightgreen;
+}
+.ppp{
+    height: 100px;
+    margin-left: 550px;
+}
+h1{
+    text-align: center;
+}
+.menu div{
+    text-align: center;
+    background-color: antiquewhite;
+    width: auto;
+    flex-grow: 1;
+    text-transform:uppercase;  /*заглавные буквы*/
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot{
+    margin-top: 20px;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+}
+footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer div{
+    text-align: center;
+    padding-top: 50px;
+}
+.flex-elem{
+    width: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.card{
+    width: 200px;
+    height: 150px;
+}
+.cart{
+    width: 40px;
+    height: 40px;
+}
+button{
+    width: 130px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.knopka{
+    align-items: center;
+}
+.card p{
+    text-align: justify;
+    flex-grow: 1; /*Ð¿Ñ€Ð¸Ð¼ÐµÐ½ÑÐµÐ¼ Ð´Ð°Ð½Ð½Ð¾Ð¹ ÑÐ²Ð¾Ð¹ÑÑ‚Ð²Ð¾, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ñ€Ð¸Ð¶Ð°Ñ‚ÑŒ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ "ÐºÐ½Ð¾Ð¿ÐºÑƒ" Ðº Ð½Ð¸Ð·Ñƒ ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ¸*/
+}
+.ops{
+    text-align: justify;
+    flex-grow: 1;
+}

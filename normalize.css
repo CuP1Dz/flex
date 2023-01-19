@@ -1,0 +1,21 @@
+.container{
+    background-color: aquamarine;
+}
+footer{
+    height: auto;
+    background-color: aqua;
+}
+main{
+    background-color: lightblue;
+    
+}
+html, body{
+    height: 100%;
+}
+aside{
+    width: 200px;
+    background-color: lightgreen;
+}
+header{
+    background-color: aqua;
+}
